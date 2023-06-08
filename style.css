@@ -63,7 +63,12 @@ label {
 .default {
   margin-top: 1.2rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.default section {
+  display: flex;
   justify-content: space-between;
 }
 
