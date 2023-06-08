@@ -92,3 +92,7 @@ i {
 .ph-caret-right {
   color: #797085;
 }
+
+#sign-out, .ph-sign-out {
+  color: #aa2222;
+}
