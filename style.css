@@ -32,7 +32,7 @@ body {
   display: flex;
   gap: 1.6rem;
   align-items: center;
-  margin-bottom: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .avatar h3 {
@@ -50,7 +50,7 @@ body {
 
 hr {
   border: 1px solid #f4effa;
-  margin: 1.6rem 0;
+  margin: 2.2rem 0;
 }
 
 label {
@@ -58,13 +58,14 @@ label {
   line-height: 1.2rem;
   letter-spacing: 4%;
   color: #797085;
+  text-transform: uppercase;
 }
 
 .default {
   margin-top: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.6rem;
 }
 
 .default section {
@@ -89,10 +90,16 @@ i {
   color: #38343d;
 }
 
+i + p:hover {
+  color: #686071;
+  cursor: pointer;
+}
+
 .ph-caret-right {
   color: #797085;
 }
 
-#sign-out, .ph-sign-out {
+#sign-out,
+.ph-sign-out {
   color: #aa2222;
 }
